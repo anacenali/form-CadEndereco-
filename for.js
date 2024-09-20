@@ -18,3 +18,11 @@ const eNumero = (numero) => /^[0-9]+$/.test(numero);
 
 // length é uma propriedade que identifica a quantidade de caracteres dentro do argumento cep
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
+
+// Função para preencher formulários com campos da API (interfacede de programção de aplicação)
+const preencherFomulario = (endereco) =>{
+    document.getElementById('logradouro').value = endereco.logradouro
+    document.getElementById('Localidade').value = endereco.Localidade;
+    document.getElementById('UF').value = endereco.UF;
+    document.getElementById('bairro').value = endereco.bairro;
+}
