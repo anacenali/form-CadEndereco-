@@ -40,6 +40,7 @@
     opacity: 1
 }
 
+/*
 .form-control::-webkit-file-upload-button {
     padding: .375rem .75rem;
     margin: -.375rem -.75rem;
@@ -100,3 +101,4 @@
 textarea.form-control {
     min-height: calc(1.5em + .75rem + calc(var(--bs-border-width) * 2))
 }
+*/
