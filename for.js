@@ -12,3 +12,6 @@ const limparFormulário = () =>{
     document.getElementById('cep').value = '';
     document.getElementById('complemento').value = '';
 }
+
+// cria expressão regular 
+const eNumero = (numero) => /^[0-9]+$/.test(numero); 
