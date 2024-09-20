@@ -15,3 +15,6 @@ const limparFormulário = () =>{
 
 // cria expressão regular 
 const eNumero = (numero) => /^[0-9]+$/.test(numero); 
+
+// length é uma propriedade que identifica a quantidade de caracteres dentro do argumento cep
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
