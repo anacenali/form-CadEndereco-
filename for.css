@@ -13,12 +13,13 @@ h3 {
     overflow: hidden
 }
 
+/*
 .form-control[type=number]:not(:disabled):not([readonly]) {
     cursor: pointer
 }
-
+*/
 .form-control {
-    display: block;
+    display: flex;
     width: 100%;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -45,40 +46,27 @@ h3 {
     box-shadow: 0 0 0 .25rem rgba(121, 122, 124, 0.25)
 }
 
-.col-md-3 {
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%
+}
+.col-3 {
     flex: 0 0 auto;
     width: 25%
 }
-
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%
+}
 .col-7 {
     flex: 0 0 auto;
     width: 58.33333333%
 }
 
-.col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%
-}
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%
-}
-
-.col-md-1 {
-    flex: 0 0 auto;
-    width: 8.33333333%
-}
-
-.col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%
-}
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%
-}
 
 .container {
     --bs-gutter-x: 1.5rem;
@@ -104,4 +92,22 @@ row-gap-lg-0 {
 
 .row-gap-lg-2 {
     row-gap: .5rem !important
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --gs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(1 * var(--vs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x))
+}
+
+.row> *{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs--gutter-x) * .5);
+    padding-left: calc(var(--bs-guuter-x) * .5);
+    margin-top: var(--bs-guuter-y);
 }
