@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
  
+h3{
+    text-align: center;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -11,11 +15,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+}
+
+.container{
+    border: 1px solid rgb(129, 126, 126);
 }
  
 #CEP{
     width: 100%;
     max-width: 100px;
+    
 }
  
 #Logradouro{
@@ -35,7 +45,7 @@ body {
     width: 300px;
 }
 #uf{
-    width: 50px;
+    width: 55px;
 }
 main {
     background-color: #ffffff;
@@ -55,6 +65,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
  
 label {
