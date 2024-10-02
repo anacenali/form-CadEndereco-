@@ -39,3 +39,7 @@
  2. Abra o arquivo index.html em um navegador web.
  3. Digite um CEP válido no campo correspondente e pressione Tab ou clique fora do campo para ativar a pesquisa.
  4. Os campos de endereço serão preenchidos automaticamente com os dados correspondentes ao CEP inserido.
+
+ ## Imagens do site 
+ ![](imgsite.png)
+ 
