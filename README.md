@@ -46,7 +46,7 @@
 
  ## Como usar 
 
- 1. Abra o link for.html em um navegador web.
+ 1. Abra o link [for.html](https://anacenali.github.io/form-CadEndereco-/for.html) em um navegador web.
  2. Digite um CEP válido no campo correspondente e pressione Tab ou clique fora do campo para ativar a pesquisa.
  3. Os campos de endereço serão preenchidos automaticamente com os dados correspondentes ao CEP inserido.
  
