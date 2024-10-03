@@ -53,3 +53,4 @@ const pesquisarCep = async () => {
 //adiciona escutador para executar consumo de API da ViaCep
 // addEventListener() registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
 document.getElementById("CEP").addEventListener("focusout", pesquisarCep);
+// O evento focusout é acionado assim que o elemento perde o foco. A principal diferença entre esse evento e o evento blur, é que esse ultimo não gera "borbulhas".
