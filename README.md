@@ -19,13 +19,22 @@
  ## Estrutura do Código
 
   ### JavaScript
-* Modo Estrito: O código é executado em modo estrito ('use strict'), o que ajuda a evitar erros comuns e a garantir uma programação mais segura.
-* Funções principais:
-  * limparFormulário(): Limpa todos os campos do formulário.
-  * eNumero(numero): Verifica se a entrada é um número.
-  * cepValido(cep): Valida se o CEP tem 8 dígitos e se é numérico.
-  * preencherFormulario(endereco): Preenche os campos do formulário com os dados retornados pela API.
-  * pesquisarCep(): Função assíncrona que consome a API ViaCEP e preenche o formulário ou exibe um alerta se o CEP não for encontrado.
+* Modo Estrito: O código é executado em modo restrito ('use strict'), o que ajuda a evitar erros comuns e a garantir uma programação mais segura, como evitar a declaração de variáveis sem let, const ou var.
+* Recursos principais:
+  * const limparFormulário(): Limpa todos os campos do formulário.
+  * const eNumero(numero): Verifica se a entrada é um número.
+    * /^[0-9]+$/ Expressão regular usada para verificar se uma string contém apenas dígitos (números) de 0 a 9. 
+  * const cepValido(cep): Valida se o CEP tem 8 dígitos e se é numérico.
+    * && Operador lógico usado na função cepValido para verificar se o CEP tem exatamente 8 caracteres e se todos são dígitos
+  * const preencherFormulario(endereco): Preenche os campos do formulário com os dados retornados pela API.
+  * const pesquisarCep(): Função assíncrona que consome a API ViaCEP e preenche o formulário ou exibe um alerta se o CEP não for encontrado.
+    * A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+    * O operador await é utilizado para esperar por uma Promise. Ele pode ser usado apenas dentro de uma async function.
+    * O método hasOwnProperty() retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
+    * addEventListener() registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
+
+
+
 
   ### HTML 
 
@@ -35,10 +44,10 @@
 
  ## Como usar 
 
- 1. Clone o repositório ou faça o download dos arquivos.
- 2. Abra o arquivo index.html em um navegador web.
- 3. Digite um CEP válido no campo correspondente e pressione Tab ou clique fora do campo para ativar a pesquisa.
- 4. Os campos de endereço serão preenchidos automaticamente com os dados correspondentes ao CEP inserido.
+ 1. Abra o link for.html em um navegador web.
+ 2. Digite um CEP válido no campo correspondente e pressione Tab ou clique fora do campo para ativar a pesquisa.
+ 3. Os campos de endereço serão preenchidos automaticamente com os dados correspondentes ao CEP inserido.
+ 
 
  ## Imagens do site 
  ![](imgsite.png)
