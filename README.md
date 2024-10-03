@@ -42,6 +42,8 @@
 
  ## Imagens do site 
  ![](imgsite.png)
+ ## GIF funcionamento do site
+ ![](Projeto%20de%20V%C3%ADdeo.gif)
 
  ## Referências 
 
