@@ -36,11 +36,11 @@ const pesquisarCep = async () => {
     const url = `https://viacep.com.br/ws/${CEP.value}/json/`;
     if (cepValido(CEP.value)) {
         const dados = await fetch(url);
-        // explicar dps
+        // A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede. 
         const addres = await dados.json();
-        // explicar dps
+        // O operador await é utilizado para esperar por uma Promise. Ele pode ser usado apenas dentro de uma async function.
 
-        // explicar dps
+        // O método hasOwnProperty() retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
         if (addres.hasOwnProperty("erro")) {
             alert("Cep não encontrado");
         } else {
@@ -51,4 +51,5 @@ const pesquisarCep = async () => {
     }
 };
 //adiciona escutador para executar consumo de API da ViaCep
+// addEventListener() registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
 document.getElementById("CEP").addEventListener("focusout", pesquisarCep);
