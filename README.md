@@ -18,7 +18,7 @@
 
  ## Estrutura do Código
 
-### JavaScript
+  ### JavaScript
 * Modo Estrito: O código é executado em modo estrito ('use strict'), o que ajuda a evitar erros comuns e a garantir uma programação mais segura.
 * Funções principais:
   * limparFormulário(): Limpa todos os campos do formulário.
