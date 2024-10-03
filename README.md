@@ -28,10 +28,10 @@
     * && Operador lógico usado na função cepValido para verificar se o CEP tem exatamente 8 caracteres e se todos são dígitos
   * const preencherFormulario(endereco): Preenche os campos do formulário com os dados retornados pela API.
   * const pesquisarCep(): Função assíncrona que consome a API ViaCEP e preenche o formulário ou exibe um alerta se o CEP não for encontrado.
-    * A API Fetch fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
-    * O operador await é utilizado para esperar por uma Promise. Ele pode ser usado apenas dentro de uma async function.
-    * O método hasOwnProperty() retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
-    * addEventListener() registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
+    * A API [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) fornece uma interface JavaScript para acessar e manipular partes do pipeline HTTP, tais como os pedidos e respostas. Ela também fornece o método global fetch() que fornece uma maneira fácil e lógica para buscar recursos de forma assíncrona através da rede.
+    * [await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/await) é utilizado para esperar por uma Promise. Ele pode ser usado apenas dentro de uma async function.
+    * [hasOwnProperty()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) retorna um booleano indicando se o objeto possui a propriedade especificada como uma propriedade definida no próprio objeto em questão (ao contrário de uma propriedade herdada).
+    * [addEventListener()](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener) registra uma única espera de evento em um único alvo. O alvo do evento pode ser um único elemento em um documento, o documento em si, uma janela, ou um XMLHttpRequest.
 
 
 
@@ -59,3 +59,4 @@
  * [ViaCEP](https://viacep.com.br/)
  * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
  * [Leonardo Rocha](https://github.com/leonardossrocha)
+ * [Developermozilla](https://developer.mozilla.org/pt-BR/)
